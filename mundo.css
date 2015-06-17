@@ -1,8 +1,83 @@
+body{
+
+	background: #666;
+
+
+}
+
+#uno{
+
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	z-index: 1;
+	width: 500px;
+	height: 150px;
+}
+
+#dos{
+
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	z-index: 2;
+	
+}
+
+
+#tres{
+
+position: absolute;
+
+top: 50px;
+
+}
+
+.birrete{
+
+	-webkit-animation: birrete 4s infinite linear;
+
+}
+
+
+@keyframes birrete{
+
+	0%{
+		-webkit-transform:rotate(0deg);
+	}
+	25%{
+		-webkit-transform:rotate(5deg);
+	}
+	50%{
+		-webkit-transform:rotate(0deg);
+	}
+	75%{
+		-webkit-transform:rotate(-5deg);
+	}
+	100%{
+		-webkit-transform:rotate(0deg);
+	}
+
+
+}
+
+@keyframes mundo{
+
+	0%{
+		-webkit-transform:rotate(0deg);
+	}
+	100%{
+		-webkit-transform:rotate(360deg);
+	}
+
+}
 
 .rueda1{
-	
--webkit-transform:rotate(7deg);
+
+	-webkit-animation: mundo 54s infinite linear;
+
 }
+
 
 img{
 width: 20%;
